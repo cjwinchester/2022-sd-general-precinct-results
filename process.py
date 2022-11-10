@@ -24,8 +24,6 @@ headers = [
     'PrecinctsPartial',
     'PrecinctsReporting',
     'TotalPrecincts',
-    'RaceID',
-    'RaceName',
     'BallotOrder',
     'VoteFor',
     'RecountPercent',
