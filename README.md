@@ -7,5 +7,3 @@ The three scripts:
 - [`download.py`](download.py) downloads the HTML pages into the `/pages` directory
 - [`scrape.py`](scrape.py) parses those files to assemble the API endpoints, then downloads JSON files for each race in each precinct into the `/data` directory
 - [`process.py`](process.py) parses those JSON files into a single CSV file, [sd-general-election-2022-precinct-unofficial-results.csv](sd-general-election-2022-precinct-unofficial-results.csv)
-
-[Here's the data in a Google Sheet](https://docs.google.com/spreadsheets/d/1OAt6MBq2Q_N0vNCph8r1eNVXILTLrsf3CKd-B5XwCU8/edit?usp=sharing).
