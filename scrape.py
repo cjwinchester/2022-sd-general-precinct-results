@@ -10,8 +10,6 @@ from bs4 import BeautifulSoup
 html_files = sorted(glob.glob('pages/*.html'))
 api_endpoint_fmt = 'https://sdresws.azurewebsites.net/ResultsAjax.svc/GetMapData?type={}&category=PREC&raceID={}&osn={}&county={}&party=0'
 
-test = html_files[0]
-
 def download_data_file(url, filename):
     r = requests.get(url)
     r.raise_for_status()
