@@ -1,7 +1,7 @@
 # 2022 SD general election results
-Some Python code to generate [a CSV file](sd-general-election-2022-precinct-unofficial-results.csv) with unofficial precinct-level results for the Nov. 8, 2022 general election in South Dakota.
+Some Python code to generate [a CSV file](sd-general-election-2022-precinct-unofficial-results.csv) with [unofficial precinct-level results](https://electionresults.sd.gov/ResultsList.aspx?type=CTYALL) for the Nov. 8, 2022 general election in South Dakota.
 
-Rather than try to parse the precinct spreadsheets generated for each county -- they're a mess -- this script instead downloads each county results page and, for each of them, assembles the endpoints for the API calls that grab the precinct data behind the scenes when you click the "Precinct Results" tabs for each race.
+Rather than try to parse the precinct spreadsheets generated for each county -- they're a mess -- this script instead downloads each county results page and assembles for each the endpoints for the API calls that grab the precinct data behind the scenes when you click the "Precinct Results" tabs for each race.
 
 The three scripts:
 - [`download.py`](download.py) downloads the HTML pages into the `/pages` directory
